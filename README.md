@@ -4,6 +4,10 @@ Python 3 module for using the [TKL](http://joukkoliikenne.tampere.fi/) [Nella se
 
 Implemented classes support basic information, but every `get_*` method accepts `get_raw` keyword argument for returning "raw" dict/list parsed from JSON. Check the docstrings/generate documentation.
 
+## Dependencies
+* [Requests](http://docs.python-requests.org/)
+* [Sphinx](http://www.sphinx-doc.org/) (optional, for docs)
+
 ## How-to
 ```python
 import nella
